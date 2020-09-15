@@ -1,9 +1,9 @@
 import React from 'react';
-import Login_component from "../components/Login"
+import LoginComponent from "../components/Login"
 
 function Login() {
   return (
-    <Login_component></Login_component>
+    <LoginComponent></LoginComponent>
   );
 }
 
