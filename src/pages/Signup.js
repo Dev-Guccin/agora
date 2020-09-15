@@ -4,8 +4,9 @@ import SignupComponent from "../components/Signup"
 
 function Signup() {
   return (
-    <SignupComponent>
-    </SignupComponent>
+      <div>
+        <SignupComponent ></SignupComponent>
+      </div>
   );
 }
 

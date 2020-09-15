@@ -13,13 +13,13 @@ function App() {
     <>
       <Router>
         <Navbar />
-        <Switch>{/*page 디렉토리로 접근하는 거*/}
-          <Route path='/' exact component={Home} />
-          <Route path='/reports' component={Reports} />
-          <Route path='/products' component={Products} />
-          <Route path='/login' component={Login} />
-          <Route path='/signup' component={Signup} />
-        </Switch>
+          <Switch>{/*page 디렉토리로 접근하는 거*/}
+            <Route path='/' exact component={Home} />
+            <Route path='/reports' component={Reports} />
+            <Route path='/products' component={Products} />
+            <Route path='/login' component={Login} />
+            <Route path='/signup' component={Signup} />
+          </Switch>
       </Router>
     </>
   );
